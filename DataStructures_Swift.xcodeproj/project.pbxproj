@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8B71F8E525256E6D006CC1A4 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71F8E425256E6D006CC1A4 /* QueueTests.swift */; };
 		8B71F8E9252577A4006CC1A4 /* QueueChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71F8E8252577A4006CC1A4 /* QueueChallengeTests.swift */; };
+		8BB32D2625283EDD00D1C47E /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB32D2525283EDD00D1C47E /* BinaryTree.swift */; };
+		8BB32D2925283EE200D1C47E /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB32D2525283EDD00D1C47E /* BinaryTree.swift */; };
+		8BB32D2D2528425F00D1C47E /* BinaryTreeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB32D2C2528425F00D1C47E /* BinaryTreeTestCase.swift */; };
 		8BE908742522BF180049BDEB /* DataStructures_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE9086A2522BF180049BDEB /* DataStructures_Swift.framework */; };
 		8BE908792522BF180049BDEB /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE908782522BF180049BDEB /* StackTests.swift */; };
 		8BE9087B2522BF180049BDEB /* DataStructures_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE9086D2522BF180049BDEB /* DataStructures_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +35,8 @@
 /* Begin PBXFileReference section */
 		8B71F8E425256E6D006CC1A4 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		8B71F8E8252577A4006CC1A4 /* QueueChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueChallengeTests.swift; sourceTree = "<group>"; };
+		8BB32D2525283EDD00D1C47E /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		8BB32D2C2528425F00D1C47E /* BinaryTreeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTestCase.swift; sourceTree = "<group>"; };
 		8BE9086A2522BF180049BDEB /* DataStructures_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataStructures_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE9086D2522BF180049BDEB /* DataStructures_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures_Swift.h; sourceTree = "<group>"; };
 		8BE9086E2522BF180049BDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +92,7 @@
 				8BE9086E2522BF180049BDEB /* Info.plist */,
 				8BE908862522BF3A0049BDEB /* Stack.swift */,
 				8BE908BD2522EE9A0049BDEB /* Queue.swift */,
+				8BB32D2525283EDD00D1C47E /* BinaryTree.swift */,
 			);
 			path = DataStructures_Swift;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 			children = (
 				8BE908782522BF180049BDEB /* StackTests.swift */,
 				8BE908B72522EB3A0049BDEB /* StackChallengeTest.swift */,
+				8BB32D2C2528425F00D1C47E /* BinaryTreeTestCase.swift */,
 				8B71F8E425256E6D006CC1A4 /* QueueTests.swift */,
 				8B71F8E8252577A4006CC1A4 /* QueueChallengeTests.swift */,
 				8BE9087A2522BF180049BDEB /* Info.plist */,
@@ -214,6 +221,7 @@
 			files = (
 				8BE908872522BF3A0049BDEB /* Stack.swift in Sources */,
 				8BE908BE2522EE9A0049BDEB /* Queue.swift in Sources */,
+				8BB32D2625283EDD00D1C47E /* BinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE908882522BF3A0049BDEB /* Stack.swift in Sources */,
+				8BB32D2925283EE200D1C47E /* BinaryTree.swift in Sources */,
 				8B71F8E9252577A4006CC1A4 /* QueueChallengeTests.swift in Sources */,
 				8BE908792522BF180049BDEB /* StackTests.swift in Sources */,
+				8BB32D2D2528425F00D1C47E /* BinaryTreeTestCase.swift in Sources */,
 				8B71F8E525256E6D006CC1A4 /* QueueTests.swift in Sources */,
 				8BE908B82522EB3A0049BDEB /* StackChallengeTest.swift in Sources */,
 				8BE908BF2522EE9A0049BDEB /* Queue.swift in Sources */,
